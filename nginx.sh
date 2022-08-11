@@ -3,7 +3,7 @@
 #!/bin/bash
 
 sudo cp -rf app.conf /etc/nginx/sites-available/app
-chmod 710 /var/lib/jenkins/workspace/CI_CD
+chmod 710 /var/lib/jenkins/workspace/CI-CD
 
 sudo ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled
 sudo nginx -t
